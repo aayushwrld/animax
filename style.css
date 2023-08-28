@@ -142,7 +142,7 @@ footer {
 
 /* Iteration 5: Making webpage mobile responsive */
 
-@media only screen and (max-width:600px) {
+@media only screen and (min-width:600px) and (max-width:800px) {
     .wrap-reverse{
         flex-wrap: wrap-reverse;
     }
@@ -152,5 +152,10 @@ footer {
     .button{
         background-color: yellow;
     }
-    
+}
+
+@media only screen and (max-width:600px) {
+    .button{
+        background-color: blue;
+    }
 }
